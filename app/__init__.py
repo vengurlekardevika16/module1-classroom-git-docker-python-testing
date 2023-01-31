@@ -1,7 +1,8 @@
 """
-This program takes an argument from the command line and outputs a greeting with the argument as the name.
-If no argument is provided, it outputs "Hello, "
+This program takes an argument from the command line and outputs a greeting
+with the argument as the name.If no argument is provided, it outputs "Hello, "
 """
+# pylint: disable=line-too-long
 
 # import the sys module
 import sys
@@ -18,7 +19,8 @@ def main():
     if len(sys.argv) > 1:
         # If yes, then set the first argument as the "name"
         name = sys.argv[1]
-    # Create the output string using f-string, which is a way to embed expressions inside string literals
+    # Create the output string using f-string,
+    # which is a way to embed expressions inside string literals
     output = f"Hello, {name}"
     # Call the "console_out" function and pass the "output" string as an argument
     console_out(output)
