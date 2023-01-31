@@ -25,14 +25,13 @@ Each module in this course will follow the same process, unless otherwise noted 
 
 1. Click the "Start Assignment" button below to accept this assignment. The assignment will be duplicated on the NJIT
    WIS GitHub organization, and then you will be added to the repository along with the professor and the graders.
-2. Add your information to this file: [here](myinfo.json)  - Replace change with your information.
-3. Clone the repository to your local computer using Pycharm.
+2. Clone the repository to your local computer using Pycharm.
+3. Add your information to this file: [here](myinfo.json)  - Replace change with your information.
 4. Type "python -m pip install -r .\requirements.txt" to install the dependencies
 5. When you complete the assignment, you must push the code back and then go to the "Actions" tab on your repositories'
    homepage to see it autograde the assignment. If the autograder turns green then you got 100, if it is red then you
    will need to click on the autograder link on that page to find your errors to fix them. You should test if your code
-   passes
-   the grader locally before pushing by following the tip below.
+   passes the grader locally before pushing by following the tip below.
 
 [![Click to Start Assignment](module_content/images/start.png)](https://classroom.github.com/a/KvHfpLwn)
 
