@@ -37,12 +37,23 @@ Each module in this course will follow the same process, unless otherwise noted 
 
 ## Tips
 
+### If everything works these should work.
+1. If you type "pytest -c pytest_grade.ini" the code will run the grader tests.
+2. If you type "pytest" the code will run your own automated tests that you put in the "tests" folder.
+3. If you type "pytest -s" you will be able to see your print statements your code output when you run the
+   tests
+4. If you type "pytest yourtestfile.py
+5. pip install -r requirements.txt <-install dependencies
+
+
+### If you have command not found with PIP or Pytest try python or python3 for these (The problem is the python path)
 1. If you type "python -m pytest -c pytest_grade.ini" the code will run the grader tests.
 2. If you type "python -m pytest" the code will run your own automated tests that you put in the "tests" folder.
 3. If you type "python -m pytest -s" you will be able to see your print statements your code output when you run the
    tests
-4. If you type "python -m pytest <replace with the path to the test file>" you can run a specific test file
-5. Whenever you see <replace with...> don't replace the entire string including the < > signs.
+4. If you type "python -m pytest yourtestfile.py
+5. "python -m pip install -r requirements.txt" <-install dependencies
+
 
 ## Licence
 
