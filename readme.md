@@ -1,12 +1,44 @@
-## Program Description
-This code is a simple Python script that implements a program that outputs "Hello, [name]" to the console. The name to be output is specified as a command line argument. If there is no command line argument, it outputs "Hello, ". The code has three functions: main(), get_argument_as_string(), and console_out(). The main() function is the entry point of the program, and the other two functions are helper functions to get the command line argument and print to the console, respectively.
+## Module Description
 
-[Learning Content](module_content/index.md)
+In this module, you will be introduced to GitHub Classroom as well as the tools used to
+automate software development tasks. GitHub Classroom is a tool provided to teachers that helps leverage the processes
+and tools used to automate tasks required during the software development process such as testing and deployment. This
+process is often referred to as continuous integration and continuous deployment(CI/CD). The processes and tools you
+will be introduced to in this unit are the fundamental tools used by DevOps engineers to get code from the developer to 
+wherever it needs to be deployed for users to use.
 
-## Install Instructions
-## Docker Instructions
+## Lessons
+
+1.  
+
+## Follow the following steps to get started:
+
+Each module in this course will follow the same process, unless otherwise noted on the assignment.
+
+1. Add your information to this file: [here](myinfo.json)  - Replace change with your information.
+2. Click the "Start Assignment" button below to accept this assignment. The assignment will be duplicated on the NJIT
+   WIS GitHub organization, and then you will be added to the repository along with the professor and the graders.
+3. Clone the repository to your local computer using Pycharm.
+4. Type "python -m pip install -r .\requirements.txt" to install the dependencies
+5. When you complete the assignment, you must push the code back and then go to the "Actions" tab on your repositories'
+   homepage to see it autograde the assignment. If the autograder turns green then you got 100, if it is red then you
+   will need to click on the autograder link on that page to find your errors to fix them. You should test if your code
+   passes
+   the grader locally before pushing by following the tip below.
+
+[![Click to Start Assignment](module_content/images/start.png)](https://classroom.github.com/a/KvHfpLwn)
+
+## Tips
+
+1. If you type "python -m pytest -c pytest_grade.ini" the code will run the grader tests.
+2. If you type "python -m pytest" the code will run your own automated tests that you put in the "tests" folder.
+3. If you type "python -m pytest -s" you will be able to see your print statements your code output when you run the
+   tests
+4. If you type "python -m pytest <replace with the path to the test file>" you can run a specific test file
+5. Whenever you see <replace with...> don't replace the entire string including the < > signs.
 
 ## Licence
+
 Copyright (c) 2012-2022 Scott Chacon and others
 
 Permission is hereby granted, free of charge, to any person obtaining

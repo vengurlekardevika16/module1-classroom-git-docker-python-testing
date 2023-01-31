@@ -1,6 +1,3 @@
-"""Automated tests for the program"""
-
-# pylint: disable=locally-disabled, multiple-statements, line-too-long
 import io  # import the `io` module to handle input/output operations
 import sys  # import the `sys` module to interact with the Python interpreter and access command line arguments
 from faker import Faker  # import the `Faker` class from the `faker` module to generate fake data
