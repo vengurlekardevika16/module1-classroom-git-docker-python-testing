@@ -1,17 +1,23 @@
 ## Module Description
 
-In this module, you will be introduced to GitHub Classroom as well as the tools used to
-automate software development tasks. GitHub Classroom is a tool provided to teachers that helps leverage the processes
-and tools used to automate tasks required during the software development process such as testing and deployment. This
-process is often referred to as continuous integration and continuous deployment(CI/CD). The processes and tools you
-will be introduced to in this unit are the fundamental tools used by DevOps engineers to get code from the developer to 
-wherever it needs to be deployed for users to use.
+In this module, you'll learn about GitHub Classroom and the tools used for automating software development tasks such as
+testing and deployment. These processes are known as Continuous Integration and Continuous Deployment (CI/CD) and are
+crucial for DevOps engineers to move code from development to deployment for user use. GitHub Classroom will also grade
+your assignments based on tests located in the "grade" folder.
 
-## Lessons
+## Hands-On Instructions
 
-1.  
+This exercise aims to demonstrate the functionality of GitHub Classroom and GitHub Actions by setting up automated
+tests, building, and pushing a Docker image to Dockerhub. Here are the steps to complete the exercise:
 
-## Follow the following steps to get started:
+1. Clone the repository using the "Get Started" instructions.
+2. Create a repository on Dockerhub and update line 6 in
+   the [.github/workflows/master.yml](.github/workflows/master.yml) file to match your repository name.
+3. In your project repository on GitHub, navigate to the "Settings" tab, then the "Secrets and Variables" option on the
+   left menu. Add your Dockerhub username and password as repository secrets under the names DOCKER_USERNAME and
+   DOCKER_PASSWORD, respectively.
+
+## Get started:
 
 Each module in this course will follow the same process, unless otherwise noted on the assignment.
 
