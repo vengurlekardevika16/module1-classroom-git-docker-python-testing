@@ -5,6 +5,8 @@ testing and deployment. These processes are known as Continuous Integration and 
 crucial for DevOps engineers to move code from development to deployment for user use. GitHub Classroom will also grade
 your assignments based on tests located in the "grade" folder.
 
+### [Video Lecture and Demonstration of Completing Assignment](https://youtu.be/HsS0vZngI1E)
+
 ## Hands-On Instructions
 
 This exercise aims to demonstrate the functionality of GitHub Classroom and GitHub Actions by setting up automated
